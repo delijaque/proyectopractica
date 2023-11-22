@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50;
+    color: rgb(20, 19, 19);
+    text-align: center;
+    padding: 10px;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-y-texto {
+    display: flex;
+    align-items: center-a;
+    
+}
+.logo-y-texto.imgLogo{
+    width: 300px; /* Puedes ajustar este valor según tus preferencias */
+  
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.carousel-item img {
+    width: 500px; /* Ajusta el valor según tus necesidades */
+    height:500px; /* Ajusta el valor según tus necesidades */
+    position: relative; /* Posiciona el elemento de forma relativa */
+
+}
+.position-absolute {
+    position: absolute; /* Posiciona el elemento de forma absoluta en relación con el elemento de posición relativa */
+    top: 100px; /* Espacio desde la parte superior del elemento de posición relativa */
+    left: 510px; /* Espacio desde la parte izquierda del elemento de posición relativa */
+    background-color: #4caf50;
+    color: rgb(20, 19, 19);
+   
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("imaganes/oscuro.webp");
+}
+
